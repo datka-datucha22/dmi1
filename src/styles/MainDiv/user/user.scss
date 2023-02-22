@@ -1,0 +1,28 @@
+@mixin font-margin {
+    font-size: 1.5em;
+    margin-left: 1.3em;
+}
+
+
+.user {
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 10%;
+        border-radius: 50%;
+    }
+
+    span {
+        @include font-margin();
+        color: #8BACD9;
+
+    }
+
+    p {
+        @include font-margin();
+        color: white;
+    }
+}

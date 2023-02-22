@@ -1,0 +1,16 @@
+.div-txt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.div-txt h2 {
+  color: white;
+  font-size: 3em;
+  padding: 2% 0;
+}
+.div-txt p {
+  font-size: 2em;
+  color: #8BACD9;
+  width: 100%;
+  padding: 2% 0;
+}/*# sourceMappingURL=div-txt.css.map */

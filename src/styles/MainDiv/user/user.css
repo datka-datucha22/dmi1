@@ -1,0 +1,20 @@
+.user {
+  width: 100%;
+  padding: 2% 0;
+  display: flex;
+  align-items: center;
+}
+.user img {
+  width: 10%;
+  border-radius: 50%;
+}
+.user span {
+  font-size: 1.5em;
+  margin-left: 1.3em;
+  color: #8BACD9;
+}
+.user p {
+  font-size: 1.5em;
+  margin-left: 1.3em;
+  color: white;
+}/*# sourceMappingURL=user.css.map */

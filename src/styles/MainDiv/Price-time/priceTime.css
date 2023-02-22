@@ -1,0 +1,35 @@
+.price-time {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2% 0;
+}
+.price-time .price {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-time .price span {
+  font-size: 1.8em;
+  color: #00FFF8;
+}
+.price-time .time {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-time .time span {
+  font-size: 1.8em;
+  color: #8BACD9;
+}
+
+.line {
+  width: 100%;
+  background-color: #3c516e;
+  height: 5px;
+  margin: 2%;
+}/*# sourceMappingURL=priceTime.css.map */
