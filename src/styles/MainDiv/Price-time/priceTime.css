@@ -6,23 +6,27 @@
   align-items: center;
   padding: 2% 0;
 }
-.price-time .price {
-  width: 30%;
+
+.price {
+  width: 45%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
-.price-time .price span {
+.price span {
+  padding: 1%;
   font-size: 1.8em;
   color: #00FFF8;
 }
-.price-time .time {
-  width: 30%;
+
+.time {
+  width: 45%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
-.price-time .time span {
+.time span {
+  padding: 1%;
   font-size: 1.8em;
   color: #8BACD9;
 }
@@ -32,4 +36,13 @@
   background-color: #3c516e;
   height: 5px;
   margin: 2%;
+}
+
+@media (max-width: 375px) {
+  .price span {
+    font-size: 1em;
+  }
+  .time span {
+    font-size: 1em;
+  }
 }/*# sourceMappingURL=priceTime.css.map */

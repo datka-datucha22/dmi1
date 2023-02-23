@@ -6,6 +6,7 @@ import PriceTime from './PriceTime'
 import Line from './Line'
 import User from './User'
 
+
 export default function MainDiv() {
     return (
         <div className="main-div">

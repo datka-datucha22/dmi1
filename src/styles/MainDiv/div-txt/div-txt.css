@@ -13,4 +13,11 @@
   color: #8BACD9;
   width: 100%;
   padding: 2% 0;
+}
+
+@media (max-width: 375px) {
+  .div-txt p,
+  .div-txt h2 {
+    font-size: 1em;
+  }
 }/*# sourceMappingURL=div-txt.css.map */

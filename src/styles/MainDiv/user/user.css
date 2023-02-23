@@ -17,4 +17,13 @@
   font-size: 1.5em;
   margin-left: 1.3em;
   color: white;
+}
+
+@media (max-width: 375px) {
+  .user span {
+    font-size: 1em;
+  }
+  .user p {
+    font-size: 1em;
+  }
 }/*# sourceMappingURL=user.css.map */

@@ -24,9 +24,50 @@
             height: 50%;
             margin: 4%;
 
+
         }
 
 
     }
 
+}
+
+.eyeImg {
+    position: relative;
+}
+
+.eyeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #00fff780;
+    max-width: 540px;
+    width: 100%;
+    max-height: 532px;
+    height: 100%;
+    border-radius: 2em;
+}
+
+.imgBox {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width:375px) {
+    .main-div {
+        max-width: 300px;
+
+    }
+
+
+}
+
+@media (max-width:613px) {
+    .eyeDiv {
+        display: none;
+    }
 }

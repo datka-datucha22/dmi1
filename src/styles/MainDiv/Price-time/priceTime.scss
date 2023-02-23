@@ -6,34 +6,39 @@
     align-items: center;
     padding: 2% 0;
 
-    .price {
-        width: 30%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
 
-        span {
-            font-size: 1.8em;
-            color: #00FFF8;
 
-        }
+
+}
+
+.price {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center;
+
+    span {
+        padding: 1%;
+        font-size: 1.8em;
+        color: #00FFF8;
 
     }
 
-    .time {
-        width: 30%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+}
 
-        span {
-            font-size: 1.8em;
-            color: #8BACD9;
+.time {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
-        }
+    span {
+        padding: 1%;
+        font-size: 1.8em;
+        color: #8BACD9;
+
     }
-
-
 }
 
 .line {
@@ -41,4 +46,14 @@
     background-color: #3c516e;
     height: 5px;
     margin: 2%;
+}
+
+@media (max-width:375px) {
+    .price span {
+        font-size: 1em;
+    }
+
+    .time span {
+        font-size: 1em;
+    }
 }

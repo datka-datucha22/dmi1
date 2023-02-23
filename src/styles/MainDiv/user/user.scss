@@ -26,3 +26,13 @@
         color: white;
     }
 }
+
+@media (max-width:375px) {
+    .user span {
+        font-size: 1em;
+    }
+
+    .user p {
+        font-size: 1em;
+    }
+}

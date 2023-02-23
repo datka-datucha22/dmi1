@@ -16,3 +16,16 @@
         padding: 2% 0;
     }
 }
+
+@media (max-width:375px) {
+
+    .div-txt {
+
+        p,
+        h2 {
+            font-size: 1em;
+        }
+
+
+    }
+}
